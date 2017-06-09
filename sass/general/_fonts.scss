@@ -1,0 +1,18 @@
+@mixin RobotoRegular {
+    font: {
+        family: 'Roboto', sans-serif;
+        weight: 400;
+    }
+}
+
+/*@mixin icomoon{
+    font-family: 'icomoon';
+    src:    url('https://i.icomoon.io/public/d9c07d1f4c/Rednosedayorg/icomoon.eot?2gwwgm');
+    src:    url('https://i.icomoon.io/public/d9c07d1f4c/Rednosedayorg/icomoon.eot?2gwwgm#iefix') format('embedded-opentype'),
+        url('https://i.icomoon.io/public/d9c07d1f4c/Rednosedayorg/icomoon.woff2?2gwwgm') format('woff2'),
+        url('https://i.icomoon.io/public/d9c07d1f4c/Rednosedayorg/icomoon.ttf?2gwwgm') format('truetype'),
+        url('https://i.icomoon.io/public/d9c07d1f4c/Rednosedayorg/icomoon.woff?2gwwgm') format('woff'),
+        url('https://i.icomoon.io/public/d9c07d1f4c/Rednosedayorg/icomoon.svg?2gwwgm#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}*/

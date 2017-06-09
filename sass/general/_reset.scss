@@ -1,0 +1,114 @@
+body, div, span, p, input, button, blockquote, a {font-size: 14px; border: none;}
+*, body, div, span, p, input, button, input, textarea, h1, h2, h3, h4, h5, h6, blockquote, a{ 
+   @include RobotoRegular; 
+}
+body,html{
+    height:auto;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+input,textarea{ -webkit-border-radius: 0; border-radius: 0; }
+p{margin: 0 0 15px 0;}
+img{padding: 0; margin: 0; max-width: 100%; height: auto; border: none;}
+*:focus {outline: 0;}
+.clearfix{clear:both;width:0;height:0;font-size:0;line-height:0;visibility:hidden;overflow:hidden}
+a, a:hover, a:active, a:focus{
+    outline: 0;
+    text-decoration: none;
+    color:inherit;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.des {
+    color: #727272;
+    font-size: 14px;
+    line-height: 23px;
+    @include RobotoRegular;
+    * {
+        color: #727272;
+        font-size: 14px;
+        line-height: 23px;
+        @include RobotoRegular;
+    }
+    a{
+        color: $red;
+    }
+    p{
+        margin: 0 0 30px 0;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        margin: 0 0 15px 0;
+        color: #323232;
+        @include RobotoRegular;
+        line-height: 100%;
+    }
+    h1{
+        font-size: 34px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    h4{
+        font-size: 14px;
+    }
+}
+
+em,i{
+    font-style: italic !important;
+    *{
+       font-style: italic !important;
+    }
+}
+b,strong{
+    font-weight: 700;
+    *{
+       font-weight: 700;
+    }
+}
+
+$desktop: 1119px;
+$tablet: 991px;
+$mobile: 767px;
+
+body{
+    min-width:320px;
+}
+
+.hidden-md-down{
+    @media(max-width:$tablet){
+        display:none;
+    }
+}
+
+.hidden-md-up{
+    @media(min-width:$tablet){
+        display:none;
+    }
+}
+
+.border-to-border{
+    @media(max-width: $tablet){
+        padding-left:0;
+        padding-right:0;
+    }
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+
+  @media(max-width: $tablet){
+    display:block;
+  }
+
+}
